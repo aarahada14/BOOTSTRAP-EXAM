@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACCORDION</title>
+<!-- ..............................link START.......................... -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+<!-- ..............................link START.......................... -->
+
+</head>
+        <!-- Create an FAQ Section Using the accordion Component and add a font utility class to format the text. -->
+<body>
+
+<section>
+        <div class="container my-5">
+            <div class="accordion" id="parent">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#fist">FIST</button>
+                    </div>
+                    <div class="accordion-collapse collapse" id="fist" data-bs-parent="#parent">
+                        <div class="accordion-body">
+                            <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatem sed nulla id quam neque molestias, sapiente a incidunt fuga, quas minus, aut iure. Ducimus, enim. Exercitationem, accusantium? Beatae, officiis!
+                            </p>  
+                        </div>
+                    </div>
+                    <br>
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#second">SECOND</button>
+                    </div>
+                    <div class="accordion-collapse collapse" id="second" data-bs-parent="#parent">
+                        <div class="accordion-body">
+                            <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatem sed nulla id quam neque molestias, sapiente a incidunt fuga, quas minus, aut iure. Ducimus, enim. Exercitationem, accusantium? Beatae, officiis!
+                            </p>  
+                        </div>
+                    </div>
+                    <br>
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#third">THIRD</button>
+                    </div>
+                    <div class="accordion-collapse collapse" id="third" data-bs-parent="#parent">
+                        <div class="accordion-body">
+                            <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatem sed nulla id quam neque molestias, sapiente a incidunt fuga, quas minus, aut iure. Ducimus, enim. Exercitationem, accusantium? Beatae, officiis!
+                            </p>  
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+</section>
+
+    
+
+
+<Script src="js/bootstrap.bundle.min.js"></Script>
+</body>
+</html>
